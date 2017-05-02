@@ -1,0 +1,78 @@
+  * User Stories
+  * Planning
+  * Mockups
+  * Modelling
+
+
+## User Stories
+
+As a ...
+I want ...
+So that...
+
+- Who are the users?
+- What do they need to do?
+- Why do they need it? What is the goal they're trying to accomplish?
+
+
+
+
+
+
+
+### EXAMPLES
+
+
+
+
+
+
+
+
+## Prioritize
+1. NEED TO HAVE
+
+2. NICE TO HAVE
+
+3. HAPPY TO HAVE
+
+
+
+
+
+
+
+
+
+## Define our key words
+
+
+
+
+
+
+
+
+
+
+## Planning
+
+- Simplify!
+
+- Make mockups
+
+
+
+
+
+
+
+
+
+
+
+
+## Modelling
+- Pen and paper / Whiteboard
+- Create models
+- Draw relationships
