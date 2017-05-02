@@ -1,0 +1,10 @@
+Trip Planner App
+
+scenario # 1:
+-- a 'Trello'-like app where the focus is on organizing a group trip with your friends.
+--feature(s) could include:
+*** listing of tasks and delegating it to each person (e.g., who dose the flight booking, hotel reservation,
+itinerary planning, etc.)
+*** status updates for each tasks
+*** status alerts every time there is a change
+*** messaging option between the group members
