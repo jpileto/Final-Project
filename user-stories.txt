@@ -111,26 +111,40 @@ TABLES
 
 USER model
 ------------------------------
-user_id | name |    email    |
+  id    | name |    email    |
 ------------------------------
         |      |             |
 ------------------------------
 
 EVENT model
---------------------
-id      | name     |
---------------------
-        |          |
---------------------
+------------------------------------------
+id      | name |    user_id  |  event_id |
+------------------------------------------
+        |      |             |           |
+------------------------------------------
+
+
+ACTIVITY model
+------------------------------
+  id    | name |    city     |
+------------------------------
+        |      |             |
+------------------------------
+
+
 
 ASSIGNMENT: check whether there is a google map API for cities OR just make a CITY model
 
 - Draw relationships
 
---- USER model ----
+--- USER model ---
 > has many events
 
 
 
 --- EVENT model ---
 > belongs to user
+
+
+
+--- ACTIVITY model ---
