@@ -32,7 +32,8 @@ Target user: Travellers, especially group travelling both for the business types
 (3) Update the rest of the travelling party with details of the trip
 
 
-HOST = organizer/group admin
+user = organizer/group admin(host), guest(members of the group)
+event = itinerary
 
 ### EXAMPLES
 
@@ -62,6 +63,10 @@ As a host, I can search cities.
 2. NICE TO HAVE
 As a user, I can search for activities.
 As a host, I can create a list.
+As a user, i can filter my activities by interest.
+As a user, I can leave a review.
+As a user, I can see the upcoming event in the city I want to travel to.
+
 
 
 3. HAPPY TO HAVE
@@ -118,6 +123,14 @@ id      | name     |
         |          |
 --------------------
 
-
+ASSIGNMENT: check whether there is a google map API for cities OR just make a CITY model
 
 - Draw relationships
+
+--- USER model ----
+> has many events
+
+
+
+--- EVENT model ---
+> belongs to user
