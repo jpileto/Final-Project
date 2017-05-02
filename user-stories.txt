@@ -103,4 +103,21 @@ TABLES
 ## Modelling
 - Pen and paper / Whiteboard
 - Create models
+
+USER model
+------------------------------
+user_id | name |    email    |
+------------------------------
+        |      |             |
+------------------------------
+
+EVENT model
+--------------------
+id      | name     |
+--------------------
+        |          |
+--------------------
+
+
+
 - Draw relationships
