@@ -11,45 +11,80 @@ I want ...
 So that...
 
 - Who are the users?
+
+Target user: Travellers, especially group travelling both for the business types and leisure/vacation
+(1) Group Traveller
+(2) Individual / Solo Traveller
+(3) Business Traveller
+(4) Leisure / Vacation
+
 - What do they need to do?
+(1) Create and login user accounts
+(2) Add/invite another person to the group + send activity notifications
+(3) Search by different cities
+(4) Create a task list
+(5) Browse photos and suggested itinerary / activity for each city
+(6) Create an event
+
 - Why do they need it? What is the goal they're trying to accomplish?
+(1) Plan the trip efficiently
+(2) Serves as a guide when travelling to a certain city
+(3) Update the rest of the travelling party with details of the trip
 
 
-
-
-
-
+HOST = organizer/group admin
 
 ### EXAMPLES
 
 
-
-
+######    As a .....
+As a host, I can create an event.
+As a host, add/invite people to the event.
+As a user(in general), create an account.
+As a host, I can search cities.
+As a user, I can search for activities.
+As a host, I can create a list.
+As a host, I can update the list.
+As a host, I can create a poll to survey the group of their preferred activity(ies).
+As a user, I can search directions to a place using the app.
 
 
 
 
 ## Prioritize
 1. NEED TO HAVE
+As a user(in general), create an account.
+As a host, I can create an event.
+As a host, add/invite people to the event.
+As a host, I can search cities.
+
 
 2. NICE TO HAVE
+As a user, I can search for activities.
+As a host, I can create a list.
+
 
 3. HAPPY TO HAVE
-
-
-
-
-
-
-
+As a host, I can create a poll to survey the group of their preferred activity(ies).
+As a user, I can search directions to a place using the app.
 
 
 ## Define our key words
+USERS:
+HOST >> group planner/organizer
+GUEST >> members of the party
+EVENT >> trip
+CITY >> planned destination ##could be an API extension(?)
 
 
+MODELS
+** USER model
+** EVENT model
 
+TABLES
+** join table: user_id, guest_id
 
-
+** events table: host_id,
 
 
 
@@ -61,14 +96,7 @@ So that...
 
 - Make mockups
 
-
-
-
-
-
-
-
-
+### See photo over @ slack
 
 
 
