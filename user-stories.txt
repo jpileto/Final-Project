@@ -149,4 +149,8 @@ ASSIGNMENT: check whether there is a google map API for cities OR just make a CI
 
 
 --- ACTIVITY model ---
+<<<<<<< HEAD
+> has many events
+=======
 > has many event
+>>>>>>> a68df57853f2f5a636c37a945a4499b5b6264b41
