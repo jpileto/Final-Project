@@ -116,7 +116,7 @@ USER model
         |      |             |
 ------------------------------
 
-EVENT model
+PLAN model
 ------------------------------------------
 id      | name |    user_id  |  event_id |
 ------------------------------------------
@@ -126,7 +126,7 @@ id      | name |    user_id  |  event_id |
 
 ACTIVITY model
 ------------------------------
-  id    | name |    city     |
+  id    | name |    city     | 
 ------------------------------
         |      |             |
 ------------------------------
@@ -142,7 +142,7 @@ ASSIGNMENT: check whether there is a google map API for cities OR just make a CI
 
 
 
---- EVENT model ---
+--- PLAN model ---
 > belongs to user
 > belongs to activity
 
