@@ -118,10 +118,15 @@ USER model
 
 PLAN model
 ------------------------------------------
-id      | name |    user_id  |  event_id |
+id      |    user_id  |  event_id |
 ------------------------------------------
-        |      |             |           |
+        |             |           |
 ------------------------------------------
+
+NAME model
+---------------------------
+id      | name |    user_id |
+-----------------------------
 
 
 ACTIVITY model
@@ -138,7 +143,8 @@ ASSIGNMENT: check whether there is a google map API for cities OR just make a CI
 - Draw relationships
 
 --- USER model ---
-> has many events
+> has many plan
+> has many name
 
 
 
@@ -146,8 +152,10 @@ ASSIGNMENT: check whether there is a google map API for cities OR just make a CI
 > belongs to user
 > belongs to activity
 
+---NAME model ----
+>belongs to user
+
 
 
 --- ACTIVITY model ---
-> has many events
-> has many event
+> has many plan
