@@ -1,19 +1,13 @@
 Rails.application.routes.draw do
-  get 'plans/index'
 
-  get 'plans/show'
+  resources :plans
 
-  get 'plans/new'
 
-  get 'plans/edit'
-
-  get 'activities/index'
-
-  get 'activities/show'
-
-  get 'activities/new'
-
-  get 'activities/edit'
+  resources :activities
 
   resources :users, only: [:new, :create]
+
+  resources :users, only: [:new, :create]
+  resources :sessions, only: [:new, :create, :destroy]
+
 end

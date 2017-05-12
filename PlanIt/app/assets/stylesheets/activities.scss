@@ -1,3 +1,30 @@
 // Place all the styles related to the activities controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+img {
+  max-width: 83%;
+  float: left;
+  height: auto;
+  padding: 10px;
+}
+
+figure {
+  margin: 0;
+  background-color: green;
+
+  & > img {
+    display: block;
+    height: auto;
+
+  }
+}
+
+.project-image {
+  max-width: 90%;
+  height: 600px;
+  margin:0 auto;
+  background-color: red;
+  text-align: center;
+}
